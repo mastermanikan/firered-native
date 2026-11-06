@@ -1,12 +1,12 @@
 # FireRed Native — Roadmap
 
-Status: **M0 shipped, awaiting device verdict.**
+Status: **M0 shipped — CI green — awaiting device verdict.**
 
 ## Milestones
 
 | # | Gate | Definition of done (on the phone) | Status |
 |---|------|-----------------------------------|--------|
-| M0 | ABI probe | APK installs on the device and reports a clear GO / NO-GO for 32-bit (AArch32) app processes | ✅ built |
+| M0 | ABI probe | APK installs on the device and reports a clear GO / NO-GO for 32-bit (AArch32) app processes | ✅ built, CI green |
 | M1 | Launcher shell | Compose UI: ROM library, SAF import with header-based region detection (BPRE/BPGE/BPRJ), control skin editor, settings, in-app diagnostics log page | planned |
 | M2 | Literal execution proof | Guest code runs natively in a 32-bit process at real GBA addresses (or AArch64 DynaRec variant if the device is 64-bit-only); GameFreak splash renders | planned |
 | M3 | Title + overworld | Title screen, menus, overworld walking (PPU, DMA, timers, poll-blocking) | planned |
