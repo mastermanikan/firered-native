@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FireRed Native</string>
+    <string name="probe_title">ABI Probe</string>
+</resources>
